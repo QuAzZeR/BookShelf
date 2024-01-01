@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuAzZeR/BookShelf.git"
+  },
+  "author": "QuAzZeR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuAzZeR/BookShelf/issues"
+  },
+  "homepage": "https://github.com/QuAzZeR/BookShelf#readme",
+  "devDependencies": {
+    "knex": "^3.1.0"
+  }
+}
