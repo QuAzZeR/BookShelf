@@ -1,13 +1,12 @@
 package server
 
-func NewENV() {
-	panic("implement me")
-}
+const EnvFileName = ".env"
 
 type ENVConfig struct {
-	Host       string `mapstructure:"host"`
-	ENV        string `mapstructure:"env"`
-	Service    string `mapstructure:"service"`
+	Host    string `mapstructure:"host"`
+	ENV     string `mapstructure:"env"`
+	Service string `mapstructure:"service"`
+
 	DBDriver   string `mapstructure:"db_driver"`
 	DBHost     string `mapstructure:"db_host"`
 	DBName     string `mapstructure:"db_name"`
