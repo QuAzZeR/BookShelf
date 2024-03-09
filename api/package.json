@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/QuAzZeR/BookShelf#readme",
   "devDependencies": {
-    "knex": "^3.1.0"
+    "knex": "^3.1.0",
+    "pg": "^8.11.3",
+    "ts-node": "^10.9.2"
   }
 }

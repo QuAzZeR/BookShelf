@@ -1,7 +1,9 @@
 package main
 
-import "github.com/quazzer/BookShelf/api/server"
+import (
+	"github.com/quazzer/BookShelf/api/api/server"
+)
 
 func main() {
-	server.NewServer()
+	server.NewHTTPServer()
 }
