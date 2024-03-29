@@ -19,6 +19,8 @@
   "devDependencies": {
     "knex": "^3.1.0",
     "pg": "^8.11.3",
-    "ts-node": "^10.9.2"
-  }
+    "ts-node": "^10.9.2",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {}
 }
