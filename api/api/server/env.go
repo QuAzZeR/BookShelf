@@ -7,10 +7,10 @@ type ENVConfig struct {
 	ENV     string `mapstructure:"env"`
 	Service string `mapstructure:"service"`
 
-	DBDriver   string `mapstructure:"db_driver"`
-	DBHost     string `mapstructure:"db_host"`
-	DBName     string `mapstructure:"db_name"`
-	DBUser     string `mapstructure:"db_user"`
-	DBPassword string `mapstructure:"db_password"`
-	DBPort     string `mapstructure:"db_port"`
+	DBEngine   string `mapstructure:"DB_ENGINE"`
+	DBHost     string `mapstructure:"DB_HOST"`
+	DBName     string `mapstructure:"DB_NAME"`
+	DBUser     string `mapstructure:"DB_USERNAME"`
+	DBPassword string `mapstructure:"DB_PASSWORD"`
+	DBPort     string `mapstructure:"DB_PORT"`
 }

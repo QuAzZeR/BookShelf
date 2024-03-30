@@ -8,9 +8,9 @@ const config: { [key: string]: Knex.Config } = {
   development: {
     client: process.env.DB_ENGINE,
     connection: {
-      database: process.env.POSTGRES_NAME,
-      user: process.env.POSTGRES_USER,
-      password: process.env.POSTGRES_PASSWORD,
+      database: process.env.DB_NAME,
+      user: process.env.DB_USERNAME,
+      password: process.env.DB_PASSWORD,
     },
     pool: {
       min: 2,
@@ -24,9 +24,9 @@ const config: { [key: string]: Knex.Config } = {
   staging: {
     client: process.env.DB_ENGINE,
     connection: {
-      database: process.env.POSTGRES_NAME,
-      user: process.env.POSTGRES_USER,
-      password: process.env.POSTGRES_PASSWORD,
+      database: process.env.DB_NAME,
+      user: process.env.DB_USERNAME,
+      password: process.env.DB_PASSWORD,
     },
     pool: {
       min: 2,
@@ -38,11 +38,11 @@ const config: { [key: string]: Knex.Config } = {
   },
 
   production: {
-    client: "postgresql",
+    client: process.env.DB_ENGINE,
     connection: {
-      database: process.env.POSTGRES_NAME,
-      user: process.env.POSTGRES_USER,
-      password: process.env.POSTGRES_PASSWORD,
+      database: process.env.DB_NAME,
+      user: process.env.DB_USERNAME,
+      password: process.env.DB_PASSWORD,
     },
     pool: {
       min: 2,
