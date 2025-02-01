@@ -7,5 +7,4 @@ import (
 func NewHTTPServer() {
 	app := fiber.New(fiber.Config{})
 	// TODO: need to update this to use env instead
-	env := NewEnv()
 }
