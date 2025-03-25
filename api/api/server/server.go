@@ -17,7 +17,7 @@ import (
 // @BasePath /
 
 func NewHTTPServer() {
-	//TODO: Update configuration
+	//TODO: Update configuration for Fiber with best practice configuration
 	app := fiber.New()
 	app.Get("/", func(c *fiber.Ctx) error {
 		return c.SendString("Welcome to the Bookshelf API")
